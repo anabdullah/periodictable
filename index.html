@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic table</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="shortcut icon" href="./Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="loader">
+        <div class="image">
+            <img src="./loader.gif" alt="">
+        </div>
+    </div>
+
+<div class="main" style="display: none;">
+    <div class="nav">
+        <h1>PROJECT</h1>
+    </div>
+
+
+    <div class="wrapper" style="color: white;">
+
+        <h1 class="heading">Periodic table of atoms</h1>
+        <span style="color: rgb(223, 227, 240); font-weight:600;">ANA PROJECTS</span>
+        <div class="top">
+        </div>
+
+
+        <div class="extra"></div>
+
+
+
+
+    </div>
+
+    <div class="pop-up">
+        <h1 class="element-name">Hydrogen</h1>
+        <h2>Symbol: H</h2>
+        <span class="type-span">Non-metal</span>
+        <p>Atomic Number: <span class="a-num">1</span></p>
+        <p>Atomic Mass: <span class="mass">3.35</span> u</p>
+        <p class="details">Description:Hydrogen is the chemical element with the symbol H and atomic number 1. It is the
+            lightest element and the most abundant chemical substance in the universe, constituting roughly 75% of all
+            normal matter. Stars such as the Sun are mainly composed of hydrogen in the plasma state. Most of the
+            hydrogen on Earth exists in molecular forms such as water and organic compounds.</p>
+
+        <p class="close"><span class="material-symbols-outlined">
+                close
+            </span></p>
+
+        <div class="btns">
+            <button class="prev">Previous</button>
+            <button class="next">Next</button>
+        </div>
+
+
+    </div>
+    <div class="footer">
+        <div class="contact">
+            <h2>Copyright</h2>
+            <p> &copy; All right reserved ABDULLAH</p>
+        </div>
+    </div>
+</div>
+    <script src="./data.js"></script>
+    <script src="./script.js"></script>
+</body>
+<script>
+    window.onload=()=>{
+        document.querySelector(".loader").style.display="none";
+        document.querySelector(".main").style.display="block";
+    }
+</script>
+</html>
